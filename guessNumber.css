@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color:#FFF9AF;
+  padding: 100px;
+}
+header {
+  color:red;
+  font-size: 25px;
+}
+p {
+  color: blue;
+}
+.again {
+  background-color: #10eb1f;
+}
+.check {
+  background-color: aquamarine;
+}
+button:hover {
+  background-color: rgba(137, 132, 165, 0.253);
+}
+
+/* 🔹 Modal Styling */
+.hidden {
+  display: none;
+}
+.modal {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 5;
+}
+.close-modal {
+  margin-top: 10px;
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}

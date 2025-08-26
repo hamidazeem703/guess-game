@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GUESS NUMBER GAME</title>
+  <link rel="stylesheet" href="guessNumber.css">
+</head>
+<body>
+  <header><strong>GUESS MY NUMBER</strong></header>
+  <p>ENTER NUMBER BETWEEN 1 TO 10</p>
+  <p class="message">HINT : START GUESSING A NUMBER</p>
+  
+  <input type="number" class="guess" placeholder="enter your number">
+  <button class="check">CHECK!</button>
+  <button class="again">AGAIN!</button>
+  
+  <p>SCORE : <span class="score">10</span></p>
+  <p>HIGH SCORE : <span class="highscore">0</span></p>
+  <p>SECRET NUMBER : <span class="secretnumber">?</span></p>
+
+  <!-- Modal for popup -->
+  <div class="modal hidden">
+    <p class="modal-text"></p>
+    <button class="close-modal">Close</button>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script src="guessNumber.js"></script>
+</body>
+</html>
